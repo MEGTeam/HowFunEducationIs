@@ -1,0 +1,148 @@
+header {
+    padding: 5px 20px;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 75vw;
+    margin: auto;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+nav > a {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fe7ec9;
+}
+
+nav ul li {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.sidenav {
+    min-width: 45vw;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 100px 50px;
+    height: 100vh;
+    transform: translate(-100vw);
+    transition: 0.4s ease-in-out;
+}
+
+.sidenav a {
+    color: white;
+}
+
+.sidenav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 50px;
+}
+
+.active {
+    transform: translate(0);
+    z-index: 55;
+}
+.black_ {
+    display: block;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background-color 0.5s ease-in-out;
+    z-index: -55;
+}
+.index {
+    animation: index 0.5s;
+}
+@keyframes index {
+    0%,
+    80% {
+        z-index: 20;
+    }
+    100% {
+        z-index: -20;
+    }
+}
+
+.display {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.767);
+    z-index: 20;
+}
+
+.humburger {
+    display: none;
+    z-index: 100;
+}
+.close {
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 12%;
+    font-size: 22px;
+}
+
+@media (max-width: 997px) {
+    header nav > ul {
+        display: none;
+    }
+    header nav {
+        margin: auto;
+        width: 775px;
+        padding: 10px;
+    }
+    header {
+        padding: 10px 0px;
+    }
+    .humburger {
+        display: block;
+    }
+    .sidenav {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 775px) {
+    header nav {
+        width: auto;
+    }
+}
+
+@media (max-width: 567px) {
+    header nav {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sidenav {
+        padding: 100px 20px;
+    }
+}
