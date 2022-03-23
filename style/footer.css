@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    color:white;
+    display: inline block;
+   margin: 0 200px ;
+   padding: 100px;
+   text-align: center;
+  
+   
+}
+footer a{
+  
+    color:#fe7ec9;
+   
+    
+    
+}
