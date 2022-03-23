@@ -1,7 +1,10 @@
-# HowFunEducationIs
+# Languages Used:
+* HTML
+* CSS
+  * BootStrap
+* JS
 
------------
+**Made By a FrontEnd Team**
+*Template About School*
 
-# Wepsite Link :-
- 
-# https://megteam.github.io/HowFunEducationIs.github.io/
+[Website Link](https://megteam.github.io/HowFunEducationIs.github.io/)
