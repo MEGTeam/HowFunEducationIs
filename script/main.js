@@ -4,7 +4,6 @@
   else if the image has "draggable" Attribute and it is "false" it will be "false"
   else the image has "draggable" Attribute and it is "true" it will be "true"
 */
-// Strting the Loop
 for (i = 0; i < document.images.length; i++) {
   if (document.images[i].draggable === "") {
     // images that have "draggable" Attribute and its Value is Empty
