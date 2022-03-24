@@ -1,7 +1,6 @@
 # Languages Used:
 * HTML
 * CSS
-  * BootStrap
 * JS
 
 **Made By a FrontEnd Team** <br>
