@@ -418,3 +418,132 @@ html {
     }
     /* AboutUs2 END */
 }
+/*key_feachures*/
+
+.key_header {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+.key_header::first-line{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:lighter;
+    color: rgb(255, 255, 255);
+}
+
+.keyfeahures{
+    background-color: rgb(252, 207, 6);
+}
+.key_box1,
+.key_box2,
+.key_box3,
+.key_box4 {
+    width: 20%;
+    box-sizing:border-box;
+    font-family: "Ubuntu", sans-serif;
+    height:min-content;
+    background-color: rgb(255, 255, 255);
+    margin-left:32px;
+    padding: 2% 2%;
+    display:block;
+}
+
+#ca_img,
+#me_img,
+#pu_img,
+#re_img{
+    
+        width: 77px;
+        margin: 20px 50% 25px 30%;
+        position:relative;
+}
+
+.key_box1 h3,
+.key_box2 h3,
+.key_box3 h3,
+.key_box4 h3 {
+    text-align:center;
+    margin-left: 18%;
+    width:max-content;
+    font-size:19px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.key_box1 h3{
+    color: rgb(255, 107, 198);
+}
+.key_box2 h3{
+    color: rgb(73, 120, 208);
+}
+.key_box3 h3{
+    color: #23c4bb;
+}
+.key_box4 h3{
+    color: yellow;
+
+
+}
+
+
+
+.key_box1 p,
+.key_box2 p,
+.key_box3 p,
+.key_box4 p {
+    font-size: 17px;
+    padding: 25px 15px 0px 20px;
+    color: rgb(90, 87, 87);
+    line-height: 20px;
+    font-style: italic;
+}
+
+.key_content {
+    display:inline-flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:flex-start;
+}
+/*how to inroll start */
+.how {
+    margin-left: 9%;
+    color: #42434b;
+    margin-top: 45px;
+    font-size: 35px;
+    line-height: 50px;
+
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.box11,.box22{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 19px;
+    color: #505050;
+    margin-left: 9%;
+    width: 40%;
+}
+.rrr{    line-height: 30px;
+    padding: 45px 15px 0px 0px;
+    display: table-column-group;
+    column-width: 40%;
+    display:inline-flex;
+   
+    
+    justify-content:flex-start;}
+
+
+
+/*how to inroll end */
