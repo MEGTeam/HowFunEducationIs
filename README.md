@@ -3,7 +3,7 @@
 * CSS
 * JS
 
-**Made By a FrontEnd Team** <br>
+**Made By MEG Team** <br>
 *Template About School*
 
 [Website Link](https://megteam.github.io/HowFunEducationIs.github.io/)
