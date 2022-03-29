@@ -7,6 +7,11 @@
 html {
     scroll-behavior: smooth;
 }
+/* till all responsive proplems fixed. */
+body > *{
+    overflow-x: hidden;
+}
+
 /* start section WSEWB */
 .text-and-imeg{
     display: flex;
@@ -219,7 +224,6 @@ html {
     flex-wrap: wrap;
     width: 50%;
     justify-content: space-between;
-    height: 700px;
 }
 .ab-small1,
 .ab-small2 {
@@ -443,6 +447,9 @@ html {
         width: 100%;
         height: 60%;
     }
+    .small-boxes{
+        height: max-content;
+    }
 }
 @media (max-width: 1300px) {
     /* AboutUs2 Start */
@@ -471,12 +478,20 @@ html {
     }
 
     /* AboutUs2 END */
+
+    /*key_feachures*/
+    .key_content{
+        padding: 50px 20px !important;
+    }
+    .key_content > div{
+        flex: 35%;
+    }
+
 }
 @media (max-width: 785px) {
     /* AboutUs2 Start */
     .BeforeAboutusGrid {
         grid-template-columns: auto;
-        margin-top: 910px;
     }
     .BeforeAboutus2 {
         padding: 15px;
@@ -496,8 +511,29 @@ html {
         min-height: 0;
     }
     /* AboutUs2 END */
+
+    /* KEYFEATURES */
+    .key_content{
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .key_content > div{
+        width: 90%;
+    }
+    .rrr{
+        flex-direction: column;
+        align-items: center !important;
+        gap: 100px !important;
+    }
+    .rrr > *{
+        width: 90% !important;
+    }
 }
 /*key_feachures*/
+
+.grey_{
+    background-color: #f3f3f3;
+}
 
 .key_header {
     text-align: center;
@@ -519,6 +555,17 @@ html {
 .keyfeahures{
     background-color: rgb(252, 207, 6);
 }
+
+.key_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 40px;
+    height: max-content;
+    padding: 50px 0;
+}
+
 .key_box1,
 .key_box2,
 .key_box3,
@@ -526,10 +573,8 @@ html {
     width: 20%;
     box-sizing:border-box;
     font-family: "Ubuntu", sans-serif;
-    height:min-content;
     background-color: rgb(255, 255, 255);
-    margin-left:32px;
-    padding: 2% 2%;
+    padding: 2%;
     display:block;
 }
 
@@ -537,10 +582,10 @@ html {
 #me_img,
 #pu_img,
 #re_img{
-    
-        width: 77px;
-        margin: 20px 50% 25px 30%;
-        position:relative;
+    display: block;
+    margin: 20px auto;
+    width: 77px;
+    position:relative;
 }
 
 .key_box1 h3,
@@ -548,8 +593,6 @@ html {
 .key_box3 h3,
 .key_box4 h3 {
     text-align:center;
-    margin-left: 18%;
-    width:max-content;
     font-size:19px;
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
@@ -583,45 +626,35 @@ html {
     font-style: italic;
 }
 
-.key_content {
-    display:inline-flex;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content:flex-start;
-}
 /*how to inroll start */
 .how {
-    margin-left: 9%;
+    width: 92%;
+    margin: auto;
     color: #42434b;
     margin-top: 45px;
     font-size: 35px;
     line-height: 50px;
-
     font-family: "Ubuntu", sans-serif;
 
 }
 
-.box11,.box22{
+.box11,
+.box22{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: lighter;
     font-size: 19px;
     color: #505050;
-    margin-left: 9%;
     width: 40%;
 }
-.rrr{    line-height: 30px;
-    padding: 45px 15px 0px 0px;
-    display: table-column-group;
-    column-width: 40%;
-    display:inline-flex;
-   
-    
-    justify-content:flex-start;}
+
+.rrr{
+    margin-top: 50px;
+    line-height: 30px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
 
 
 
