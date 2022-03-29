@@ -36,6 +36,7 @@ html {
 @media (max-width: 767px){
     .text-and-imeg{
         width: 100%;
+        flex-direction: column;
     }
     .text h2{
         width: 100;
