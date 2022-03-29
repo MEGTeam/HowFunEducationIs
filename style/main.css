@@ -116,7 +116,7 @@ html {
 /* start section L-P-P-G */
 .beleaguer{
     display: flex;
-    margin-top: 70px;
+    flex-wrap: wrap;
 }
 .learning{
     width: 378px;
@@ -124,12 +124,6 @@ html {
     background-color: #38c4c1;
     text-align: center;
     padding-top: 120px;
-}
-.text-3{
-    margin: 20px 20px 35px;
-    color: #ffffff;
-    font-size: 2.25rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .Philosophy{
     width: 378px;
@@ -152,7 +146,69 @@ html {
     text-align: center;
     padding-top: 120px;
 }
+.text-3{
+    margin: 20px 20px 35px;
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* end section L-P-P-G */
+/* start responsiv section L-P-P-G */
+/* mopil */
+@media (max-width: 767px){
+    .learning{
+        width: 100%;
+    }
+    .Philosophy{
+        width: 100%;
+    }
+    .practice{
+        width: 100%;
+    }
+    .games{
+        width: 100%;
+    }
+}
+/* small screen */
+@media (min-width: 768px)  {
+    .beleaguer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .learning{
+        width: 50%;
+    }
+    .Philosophy{
+        width: 50%;
+    }
+    .practice{
+        width: 50%;
+    }
+    .games{
+        width: 50%;
+    }
+}
+/* mudim screen */
+@media (min-width: 1024px){
+    .beleaguer{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .learning{
+        width: 25%;
+    }
+    .Philosophy{
+        width: 25%;
+    }
+    .practice{
+        width: 25%;
+    }
+    .games{
+        width: 25%;
+    }
+}
+/* end responsiv section L-P-P-G */
 /* start section K-L-H-W-T-T */
 .K-L-H-W-T-T{
     background-color: #f2f2f2;
@@ -165,16 +221,14 @@ html {
     padding-top: 140px;
 }
 .mark{
-    margin-left: 620px;
     background-color: #000000;
-    width: 75px;
+    width: 12%;
+    margin: 0 44% 0 44%;
     height: 7px;
     margin-top: 30px;
 }
 .K-L-H-W-T-T p{
     text-align: center;
-    padding-left: 210px;
-    padding-right: 210px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
@@ -182,6 +236,50 @@ html {
     padding-bottom: 140px;
 }
 /* end section K-L-H-W-T-T */
+/* mopil */
+
+@media (max-width: 767px){
+    .mark{
+        width: 12%;
+        margin: 0 44% 0 44%;
+    }
+}
+/* small screen */
+@media (min-width: 768px) {
+    .beleaguer-1 h1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10px;
+    }
+    .K-L-H-W-T-T p{
+
+    }
+}
+/* mudim screen */
+@media (min-width: 992px){
+    
+}
+/* larg screen */
+@media (min-width: 1200px){
+    
+}
+/* x larg screen */
+@media (min-width: 1400px){
+    
+}
+/* custom */
+@media (max-width: 1199px){
+    
+}
+
+
+
+
+
+
+
+
+
 /* AboutUs1 Start */
 .ab-header {
     text-align: center;
