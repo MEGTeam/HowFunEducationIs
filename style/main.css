@@ -37,7 +37,7 @@ body > *{
 }
 /* end section WSEWB */
 /* start rispoonsev section WSEWB */
- /* mopil */
+/* mopil */
 @media (max-width: 767px){
     .text-and-imeg{
         width: 100%;
@@ -253,9 +253,9 @@ body > *{
 /* small screen */
 @media (min-width: 768px) {
     .beleaguer-1 h1{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10px;
     }
     .K-L-H-W-T-T p{
 
@@ -263,19 +263,19 @@ body > *{
 }
 /* mudim screen */
 @media (min-width: 992px){
-    
+
 }
 /* larg screen */
 @media (min-width: 1200px){
-    
+
 }
 /* x larg screen */
 @media (min-width: 1400px){
-    
+
 }
 /* custom */
 @media (max-width: 1199px){
-    
+
 }
 
 
@@ -486,8 +486,133 @@ body > *{
     font-size: 1.125rem;
     margin: 20px 0 15px;
 }
-
 /* AboutUs2 END */
+/* Facility Start */
+.facility{
+    width: 100%;
+    display: flex;
+    background-color: #38c4c1;
+    flex-flow: row wrap;
+    font-family: "Ubuntu", sans-serif;
+}
+.fas-head{
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 80px;
+    text-transform: capitalize;
+}
+.fas-head::first-line{
+    font-weight: normal;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.fas-comp{
+    width: 1100px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+.fas-image{
+    width: 550px
+}
+.fas-text{
+    width: 550px;
+    background-color: white;
+    font-weight: normal;
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: gray;
+}
+.fas-text span{
+    font-weight: bold;
+    font-size: 28px
+}
+.fas-submit{
+    cursor: pointer;
+    color: #fe7ec9;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* Facility End */
+/* Footer Start */
+.first-foo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.first-foo div{
+    width: 220px;
+    font-size: 15px;
+    text-align: center;
+}
+.first-foo img{
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+/* Footer End */
+@media (max-width:770px){
+    /* Footer Start */
+    .first-foo{
+        flex-direction: column;
+        align-content: center;
+    }
+    .first-foo div{
+        margin-bottom: 100px;
+    }
+}
+@media(max-width:981px){
+    /*Facility Start*/
+    .fas-comp{
+        width: 700px;
+    }
+    .fas-image{
+        width: 350px;
+        height: 565px;
+    }
+    .fas-text{
+        width: 350px;
+        font-size: 25px;
+    }
+    .fas-text span{
+        font-weight: bold;
+        font-size: 37px
+    }
+}
+@media(max-width:770px){
+    .fas-comp{
+        flex-flow: row wrap;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fas-image{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fas-text{
+        width: 70vw;
+        height: 600px;
+    }
+    /* Facility End */
+}
 @media only screen and (max-width: 991px) {
     .ab-header {
         font-size: 35px;
@@ -694,7 +819,7 @@ body > *{
     font-size:19px;
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
-    
+
 }
 .key_box1 h3{
     color: rgb(255, 107, 198);
